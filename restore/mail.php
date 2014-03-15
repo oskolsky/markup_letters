@@ -11,7 +11,7 @@
   $mail -> To($to);
   $mail -> Cc($cc);
   $mail -> Subject('re:Store: РЕГИСТРАЦИЯ БЕЗ ПОКУПКИ');
-  $mail -> Body(file_get_contents('reStore-11.html'), 'html');
+  $mail -> Body(file_get_contents('reStore-9.html'), 'html');
   $mail -> Priority(3);
   $mail -> Send();
   echo $mail -> Get();
