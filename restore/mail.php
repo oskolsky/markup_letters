@@ -10,8 +10,8 @@
   $mail -> log_on(true);
   $mail -> To($to);
   $mail -> Cc($cc);
-  $mail -> Subject('re:Store: Test images');
-  $mail -> Body(file_get_contents('reStore-1.html'), 'html');
+  $mail -> Subject('re:Store: РЕГИСТРАЦИЯ БЕЗ ПОКУПКИ');
+  $mail -> Body(file_get_contents('reStore-11.html'), 'html');
   $mail -> Priority(3);
   $mail -> Send();
   echo $mail -> Get();
